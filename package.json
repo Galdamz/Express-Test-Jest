@@ -1,0 +1,41 @@
+{
+  "name": "express-test-jest",
+  "version": "1.0.0",
+  "description": "How to test your Express API with jest & supertest using TypeScript...",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galdamz/Express-Test-Jest.git"
+  },
+  "keywords": [
+    "Test",
+    "Jest",
+    "Supertest",
+    "Express",
+    "Nodejs",
+    "TypeScript"
+  ],
+  "author": "Galdamz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Galdamz/Express-Test-Jest/issues"
+  },
+  "homepage": "https://github.com/Galdamz/Express-Test-Jest#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "esbuild": "^0.14.38",
+    "eslint": "^8.14.0",
+    "ts-jest": "^28.0.1",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2"
+  }
+}
